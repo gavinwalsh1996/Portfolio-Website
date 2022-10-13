@@ -1,0 +1,28 @@
+@import "Header.scss";
+
+.home {
+    max-width: 100vw;
+    background-color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+
+    h1 {
+        color: $font-color;
+    }
+
+    .word {
+        color: $secondary-color
+    }
+}
+
+// p {
+//     color: white;
+//     max-width: 50%;
+//     text-align: start;
+//     line-height: 1.5;
+// }

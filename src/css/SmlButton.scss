@@ -1,0 +1,31 @@
+.smlbtn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 6vh;
+}
+
+.smlbtn-container {
+
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgba(26, 25, 25, 0.95);
+    border: 3px solid rgb(83, 235, 235);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(144, 187, 187);
+    transition: ease-in-out 0.3s;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+:hover {
+    box-shadow: inset 300px 0 0 0 rgb(144, 187, 187); 
+    cursor: pointer;
+}
+
+}

@@ -1,0 +1,48 @@
+@import "Header.scss";
+
+.about {
+    max-width: 100vw;
+    background-color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.html {
+    color: $font-color;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills-name {
+    color: $font-color;
+    // padding: 20px;
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.description {
+    padding: 20px 0;
+    font-size: $font-size;
+    color: $font-color;
+    max-width: 50%;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.skills-row {
+    display: flex;
+    gap: 20px;
+}

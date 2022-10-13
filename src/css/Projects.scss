@@ -1,0 +1,57 @@
+@import "Header.scss";
+
+.projects {
+    background-color: $primary-color;
+}
+
+.projects-container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+}
+
+.projects div {
+    flex: 1;
+}
+
+// .projects div:first-child {
+//     flex: 2;
+// }
+
+p {
+    font-size: $font-size;
+    color: $font-color;
+}
+
+h3 {
+    color: $font-color;
+    font-size: $sub-heading;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-image {
+    background-color: $header-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+img {
+    height: 70%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}

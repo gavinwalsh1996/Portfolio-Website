@@ -1,0 +1,33 @@
+@import "Header.scss";
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+input {
+    background-color: $header-color;
+    border: none;
+    width: 40%;
+    height: 40px;
+    text-align: start;
+    color: white;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: rgba(171, 178, 185, 0.95);
+}
+
+textarea {
+    background-color: $header-color;
+    border: none;
+    width: 40%;
+    height: 100px;
+    text-align: start;
+    color: white;
+    padding-left: 10px;
+}
