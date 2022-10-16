@@ -3,6 +3,8 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import ReactSwitch from 'react-switch';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+
 
 //CSS
 import '../css/Header.scss'
@@ -12,6 +14,7 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Home from '../pages/Home'
 import Projects from '../pages/Projects'
+import { LightMode } from '@mui/icons-material';
 
 function Header({theme, toggleTheme}) {
 
@@ -27,12 +30,19 @@ function Header({theme, toggleTheme}) {
             <div className='nav-item'><Link to='/contact'>Contact</Link></div>
         </div> */}
         <div className="switch">
-          <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'}/>
 
-            <React.Fragment>
-            <label>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</label>
-            <DarkModeIcon style={{color: 'white', width: '1rem'}} />
-            </React.Fragment>
+            <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'}/>
+            {theme === 'light'
+              ? <React.Fragment>
+                <label>Light Mode</label>
+                <LightMode style={{color: 'white', width: '1rem'}}/>
+                </React.Fragment>
+
+              : <React.Fragment>
+                <label>Dark Mode</label>
+                <DarkModeIcon style={{color: 'white', width: '1rem'}}/>
+                </React.Fragment> 
+            }
 
         </div>
         <div className='navigation'>

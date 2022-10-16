@@ -24,7 +24,7 @@ function About() {
 
     <Heading heading={heading}/>
 
-      <AccountCircleIcon sx={{ fontSize: "200px", color: "#F08080" }} />
+      <AccountCircleIcon sx={{ fontSize: "200px", color: "#1b7ced" }} />
 
           <p className='description'>Self thought and fully committed to the philosophy of life-long learning, I’m a junior front end developer with a deep passion for JavaScript, React and all
             things web development. The unique combination of creativity, 

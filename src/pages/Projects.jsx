@@ -9,6 +9,8 @@ function Projects({heading}) {
 
   let buttonValue1= 'Live App';
   let buttonValue2= 'Learn More';
+  let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
+
 
   return (
 
@@ -26,8 +28,8 @@ function Projects({heading}) {
             React Front end flight entertainment system app
           </p>
           <div className="buttons">
-          <SmlButton value={buttonValue1}/>
-          <SmlButton value={buttonValue2}/>
+          <SmlButton value={buttonValue1} />
+          <SmlButton value={buttonValue2} link={FlightEntLink} />
           </div>
         </div> 
 

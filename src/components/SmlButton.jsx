@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/SmlButton.scss'
 
-function SmlButton({value}) {
+function SmlButton({ value, link }) {
 
   return (
 
     <div className='smlbtn-container'>
-        <button>{value}</button>
+        <a href={link}><button>{value}</button></a>
     </div>
 
   )

@@ -8,8 +8,8 @@ function footer() {
 
     <div className="footer">
         <div className="footer-icons">
-            <GitHubIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/>
-            <EmailIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/>
+            <a href='https://github.com/gavinwalsh1996'><GitHubIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/></a>
+            <a href='mailto:gavinwalsh739@email.com'><EmailIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/></a>
         </div>
         <div className="footer-copyright">GAVIN WALSH ©2022</div>
     </div>

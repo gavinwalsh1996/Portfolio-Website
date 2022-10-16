@@ -8,7 +8,7 @@ function Heading({heading}) {
   return (
 
     <>
-        <h2>{heading}</h2>
+        <h2 className='heading'>{heading}</h2>
     </>
   )
 }
