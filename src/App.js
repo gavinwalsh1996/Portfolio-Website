@@ -11,6 +11,9 @@ import Projects from './pages/Projects';
 import Footer from './components/Footer'
 import Contact from './pages/Contact';
 
+//Images
+import Portfolio from './images/portfolio-website.png'
+
 //Test
 export const ThemeContext = React.createContext(null);
 
@@ -22,6 +25,21 @@ function App() {
   }
 
   let heading = 'Projects';
+
+  let portfolioProject = [
+    {
+      title: 'Portfolio Website',
+      description: 'My portfolio website',
+      img: Portfolio,
+      gitHub: 'https://github.com/gavinwalsh1996/flight-entertainment-system'
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'My portfolio website',
+      img: Portfolio,
+      gitHub: 'https://github.com/gavinwalsh1996/flight-entertainment-system'
+    }
+  ]
   
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
@@ -30,7 +48,7 @@ function App() {
         <Home />
         <About />
         <Projects heading={heading}/>
-        <Projects />
+        <Projects projectss={portfolioProject}/>
         <Projects />
         <Contact />
         <Footer />

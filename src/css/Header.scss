@@ -126,7 +126,7 @@ a:hover {
 }
 
 .switch {
-    padding-left: 20px;
+    padding-left: .2rem;
     display: flex;
     // flex-direction: column;
     justify-content: center;
@@ -187,7 +187,6 @@ a:hover {
             justify-content: center;
             align-items: center;
         }
-
         
     }
 
@@ -233,6 +232,37 @@ a:hover {
         font-size: 0.7rem;
     }
 
+    .navigation {
+        display: flex;
+        gap: 10px;
+        // margin-right: 40px;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 4rem;
+        background-color: rgb(144, 187, 187);
+        background-color: $header-color;
+        backdrop-filter: blur(8px);
+        position: fixed;
+        z-index: 1000;
+        gap: 3rem;
+    }
+
+    .skills-name img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skills-name {
+        font-size: small;
+    }
+
+
+
 
   }
 
@@ -273,3 +303,6 @@ a:hover {
     }
 }
 
+// .switch {
+    
+// }
