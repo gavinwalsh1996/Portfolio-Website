@@ -3,17 +3,17 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import ReactSwitch from 'react-switch';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
+// import LightModeIcon from '@mui/icons-material/LightMode';
 
 
 //CSS
 import '../css/Header.scss'
 
 //Pages 
-import About from '../pages/About'
-import Contact from '../pages/Contact'
-import Home from '../pages/Home'
-import Projects from '../pages/Projects'
+// import About from '../pages/About'
+// import Contact from '../pages/Contact'
+// import Home from '../pages/Home'
+// import Projects from '../pages/Projects'
 import { LightMode } from '@mui/icons-material';
 
 function Header({theme, toggleTheme}) {

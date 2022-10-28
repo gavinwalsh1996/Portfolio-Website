@@ -5,9 +5,8 @@ import '../css/Projects.scss'
 import FES from '../images/flight-entertainment-system-image.jpg'
 
 
-function Projects({heading, projectss}) {
+function Projects({heading}) {
 
-  // const {title, description, img, gitHub} = project
 
   let buttonValue1= 'Live App';
   let buttonValue2= 'Learn More';
@@ -22,7 +21,7 @@ function Projects({heading, projectss}) {
 
   <div className='projects-container'>
     <div className="project-image">
-        <img src={FES} />
+        <img src={FES} alt='image' />
     </div>
     <div className="project-desc">
         <h3>Flight Entertainment System</h3>

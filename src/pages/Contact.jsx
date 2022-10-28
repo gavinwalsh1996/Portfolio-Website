@@ -2,13 +2,12 @@ import React from 'react'
 import '../css/Contact.scss';
 
 import Heading from '../components/Heading'
-import SmlButton from '../components/SmlButton';
 import ContactForm from '../components/ContactForm';
 
 function Contact() {
 
     let heading = 'Contact'
-    let buttonText = 'Submit'
+    // let buttonText = 'Submit'
 
   return (
 
