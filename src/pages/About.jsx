@@ -38,17 +38,17 @@ function About() {
               <div className="skills-row">
 
                 <div className="skills-name">
-                  <img src={HTML} />
+                  <img src={HTML} alt='' />
                   <div className='lang-name'>HTML</div>
                 </div>
-
+                
                 <div className="skills-name">
-                <img src={CSS} />
+                <img src={CSS} alt='' />
                   <div className='lang-name'>CSS</div>
                 </div>
 
                 <div className="skills-name">
-                <img src={SASS} />
+                <img src={SASS} alt=''/>
                   <div className='lang-name'>SASS</div>
                 </div>
 
@@ -56,17 +56,17 @@ function About() {
               <div className="skills-row">
 
                 <div className="skills-name">
-                  <img src={REACT} />
+                  <img src={REACT} alt='' />
                   <div className='lang-name'>REACT</div>
                 </div>
 
                 <div className="skills-name">
-                <img src={GIT} />
+                <img src={GIT} alt='' />
                   <div className='lang-name'>GIT</div>
                 </div>
 
                 <div className="skills-name">
-                <img src={JS} />
+                <img src={JS} alt='' />
                   <div className='lang-name'>JAVASCRIPT</div>
                 </div>
 
