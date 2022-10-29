@@ -21,7 +21,7 @@ function Projects({heading}) {
 
   <div className='projects-container'>
     <div className="project-image">
-        <img src={FES} alt='image' />
+        <img src={FES} alt='' />
     </div>
     <div className="project-desc">
         <h3>Flight Entertainment System</h3>
