@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact';
 
 //Images
-import Portfolio from './images/portfolio-website.png'
+import Portfolio from './images/fes screenshot.png'
 
 //Test
 export const ThemeContext = React.createContext(null);

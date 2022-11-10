@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../components/Heading'
 import SmlButton from '../components/SmlButton'
 import '../css/Projects.scss'
-import FES from '../images/flight-entertainment-system-image.jpg'
+import FES from '../images/fes screenshot.png'
 
 
 function Projects({heading}) {
