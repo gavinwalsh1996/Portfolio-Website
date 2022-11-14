@@ -49,7 +49,7 @@ function Header({theme, toggleTheme}) {
         <div className='navigation'>
             <div className='nav-item'><Link to='home'smooth={true} offset={100} duration={500}>Home</Link></div>
             <div className='nav-item'><Link to='about'smooth={true} offset={20} duration={500}>About</Link></div>
-            <div className='nav-item'><Link to='projects' smooth={true} offset={-80} duration={500}>Projects</Link></div>
+            <div className='nav-item'><Link to='projects' smooth={true} offset={0} duration={500}>Projects</Link></div>
             <div className='nav-item'><Link to='contact' smooth={true} offset={100} duration={500}>Contact</Link></div>
             {/* <div className='nav-item'><Link to='resume' smooth={true} offset={100} duration={500}>Resume</Link></div> */}
             <div className='nav-item-resume'><a href={Resume} download>Resume</a></div>
