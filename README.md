@@ -10,7 +10,7 @@ Desktop View :
 
 Mobile View: 
 
-![Screenshot (28)](https://user-images.githubusercontent.com/101522330/201771483-74a50f2e-5a44-4f2b-bbfc-f271eb3538e7.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/101522330/201775959-a3eee7b0-273d-4c97-8690-9c57813a046f.png)
 
 <h1>Built With</h1>
 
