@@ -12,6 +12,17 @@ Mobile View:
 
 ![Screenshot (30)](https://user-images.githubusercontent.com/101522330/201775959-a3eee7b0-273d-4c97-8690-9c57813a046f.png)
 
+<h1>Inspiration</h1>
+
+I was inspired to make this website by looking at many different developer's portfolios. I spent a lot of time looking at different features and ways to make the website easy to navigate for the hiring manager. I went for a simple one page website with a smooth scrolling feature to make it very user friendly.
+
+<h1>Summary</h1>
+
+With this design, I spent a lot of time planning the build and listing off all of the features that I would be using within the website. This saved me a lot of time when it came to the building process as I had a set plan to follow. I built this website within a couple of hours and learned a lot along the way.
+
+I noticed that I was getting very comfortable building with React and was improving my skills at a very fast pace.
+
+
 <h1>Built With</h1>
 
 - React.js
