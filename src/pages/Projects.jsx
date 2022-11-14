@@ -41,7 +41,7 @@ function Projects({heading, projects}) {
     </div>
     <div className="project-desc">
         <h3>Flight Entertainment System</h3>
-        <p>In flight entertainment system build with React.
+        <p>In flight entertainment system build with React. {<br></br>}
           In this project, I make use of TMDB and Open Weather Map API's to gather information.
           This App also includes many different React Hooks and features such as React Router and React Context. {<br></br>}
         </p>
