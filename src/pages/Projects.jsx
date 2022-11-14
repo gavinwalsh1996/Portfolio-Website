@@ -15,9 +15,9 @@ function Projects({heading, projects}) {
   let buttonValue1= 'Live App';
   let buttonValue2= 'Learn More';
   let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
-  let FlightEntLinkWebsite = 'https://bucolic-dango-c7b9a7.netlify.app';
+  let FlightEntLinkWebsite = 'https://flight-entertainment-system.netlify.app';
   let PortfolioLink = 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master'
-  let PortfolioLinkWebsite = 'https://heroic-gumdrop-f6e4a5.netlify.app'
+  let PortfolioLinkWebsite = 'https://gavinwalsh.netlify.app'
 
 
   return (
