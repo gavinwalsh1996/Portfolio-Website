@@ -7,6 +7,7 @@ import FES from '../images/fes screenshot.png'
 import PortfolioImg2 from '../images/portfolio-website.png'
 
 
+
 function Projects({heading, projects}) {
 
 
@@ -40,8 +41,9 @@ function Projects({heading, projects}) {
     </div>
     <div className="project-desc">
         <h3>Flight Entertainment System</h3>
-        <p>Experience a flight from Dublin to Barcelona with this {<br></br>}
-          React Front end flight entertainment system app
+        <p>In flight entertainment system build with React.
+          In this project, I make use of TMDB and Open Weather Map API's to gather information.
+          This App also includes many different React Hooks and features such as React Router and React Context. {<br></br>}
         </p>
         <div className="buttons">
         <SmlButton value={buttonValue1} link={FlightEntLinkWebsite} />
@@ -59,7 +61,9 @@ function Projects({heading, projects}) {
     </div>
     <div className="project-desc">
         <h3>Portfolio Website</h3>
-        <p>My portfolio website built with React and styled with SASS</p>
+        <p> A simple one page application designed to showcase my work.
+          This project was built with React and styled with SASS.
+        </p>
         <div className="buttons">
         <SmlButton value={buttonValue1} link={PortfolioLinkWebsite} />
         <SmlButton value={buttonValue2} link={PortfolioLink} />

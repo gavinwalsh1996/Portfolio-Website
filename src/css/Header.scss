@@ -54,6 +54,12 @@ $font-color: #fff;
 #light p {
     color: black;
 }
+#light a {
+    color: black;
+}
+#light .nav-item-resume a {
+    color: yellow;
+}
 
 
 // #light button {
@@ -138,6 +144,10 @@ a:hover {
     }
     font-size: .5rem;
     font-style: italic;
+}
+
+.nav-item-resume a {
+    color: yellow;
 }
 
 // Breakpoints
