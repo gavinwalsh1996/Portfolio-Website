@@ -4,19 +4,13 @@ import './App.css';
 
 //Components 
 import Header from './components/Header'
-// import LrgButton from './components/LrgButton';
-// import SmlButton from './components/SmlButton';
 import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer'
 import Contact from './pages/Contact';
 
-//Images
-// import FesImage from './images/fes screenshot.png'
-// import PortfolioImage from './images/portfolio-website-screenshot.png'
 
-//Test
 export const ThemeContext = React.createContext(null);
 
 function App() {
@@ -43,7 +37,7 @@ function App() {
   //     portGitHub: 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master',
   //     portLiveApp: 'https://heroic-gumdrop-f6e4a5.netlify.app'
   //   }
-  // ]
+  // ]  
   
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

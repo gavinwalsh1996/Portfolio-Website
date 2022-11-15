@@ -3,7 +3,6 @@ import Heading from '../components/Heading'
 import SmlButton from '../components/SmlButton'
 import '../css/Projects.scss'
 import FES from '../images/fes screenshot.png'
-// import PortfolioImg from '../images/portfolio-website-screenshot.png'
 import PortfolioImg2 from '../images/portfolio-website.png'
 
 
@@ -22,13 +21,6 @@ function Projects({heading, projects}) {
 
   return (
     <>
-
-    {/* {projects.map((project) => (
-      <>
-        <h1>{project[0].title}</h1>
-      
-      </>
-    ))}  */}
 
   <div className='projects'>
       

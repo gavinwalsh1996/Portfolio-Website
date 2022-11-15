@@ -6,7 +6,6 @@ $heading: 3rem;
 $sub-heading: 2rem;
 $font-size: .9rem;
 $font-color: #fff;
-// rgb(106 100 100 / 95%)
 
 // Dark Mode
 
@@ -61,24 +60,6 @@ $font-color: #fff;
     color: yellow;
 }
 
-
-// #light button {
-//     width: 300px;
-//     height: 50px;
-//     border: none;
-//     background-color: rgba(26, 25, 25, 0.95);
-//     color: #fff;
-//     border-radius: 4px;
-//     transition: ease-in-out 0.3s;
-//     font-size: 1.5rem;
-//     outline: none;
-//     border: 3px solid #fff;
-//     position: relative;
-//     z-index: 1;
-// }
-
-
-
 #dark {
     background-color: $primary-color;
 }
@@ -103,20 +84,6 @@ $font-color: #fff;
     margin-right: 40px;
 }
 
-// .navigation {
-//     .nav-item {
-//         list-style: none;
-//         color: $secondary-color;
-//         font-size: $font-size;
-//     }
-
-//     .nav-item:hover {
-//         cursor: pointer;
-//         color: #61DBFB;
-//         transition: .2s ease-in-out;
-//     }
-// }
-
 a {
     list-style: none;
     color: $base-color;
@@ -134,7 +101,6 @@ a:hover {
 .switch {
     padding-left: .2rem;
     display: flex;
-    // flex-direction: column;
     justify-content: center;
     align-items: center;
    gap: .2rem;
@@ -245,7 +211,6 @@ a:hover {
     .navigation {
         display: flex;
         gap: 10px;
-        // margin-right: 40px;
     }
 
     .nav-bar {
@@ -312,7 +277,3 @@ a:hover {
         flex: 0; 
     }
 }
-
-// .switch {
-    
-// }
