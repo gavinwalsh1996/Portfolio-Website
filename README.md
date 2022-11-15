@@ -6,7 +6,7 @@ https://gavinwalsh.netlify.app/
 
 Desktop View : 
 
-![portfolio-website-screenshot](https://user-images.githubusercontent.com/101522330/201771143-7d7de2c5-13cf-4446-a26b-ec318b5ae41f.png)
+![portfolio-website-screenshot](https://user-images.githubusercontent.com/101522330/201959388-46657fdd-e756-4db7-873d-71eaa572f91d.png)
 
 Mobile View: 
 
