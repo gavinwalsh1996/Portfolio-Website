@@ -2,8 +2,8 @@ import React from 'react'
 import Heading from '../components/Heading'
 import SmlButton from '../components/SmlButton'
 import '../css/Projects.scss'
-import FES from '../images/fes screenshot.png'
-import PortfolioImg2 from '../images/portfolio-website.png'
+import FES from '../images/fes-screenshot.png'
+import PortfolioImg from '../images/portfolio-website-screenshot.png'
 
 
 
@@ -49,7 +49,7 @@ function Projects({heading, projects}) {
 
   <div className='projects-container'>
     <div className="project-image">
-        <img src={PortfolioImg2} alt='' />
+        <img src={PortfolioImg} alt='' />
     </div>
     <div className="project-desc">
         <h3>Portfolio Website</h3>
