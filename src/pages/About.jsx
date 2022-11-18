@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/About.scss'
 
-// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+// git a
 import Heading from '../components/Heading'
 import HTML from '../images/html-image.png'
 import CSS from '../images/css.png'
