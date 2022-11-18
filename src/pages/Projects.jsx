@@ -6,13 +6,12 @@ import FES from '../images/fes-screenshot.png'
 import PortfolioImg from '../images/portfolio-website-screenshot.png'
 
 
-
 function Projects({heading, projects}) {
 
 
 
   let buttonValue1= 'Live App';
-  let buttonValue2= 'Learn More';
+  let buttonValue2= 'Github';
   let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
   let FlightEntLinkWebsite = 'https://flight-entertainment-system.netlify.app';
   let PortfolioLink = 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master'

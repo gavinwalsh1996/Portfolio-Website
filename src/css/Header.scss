@@ -277,3 +277,13 @@ a:hover {
         flex: 0; 
     }
 }
+
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: .8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}

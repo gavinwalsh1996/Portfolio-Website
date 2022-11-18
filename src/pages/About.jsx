@@ -9,6 +9,7 @@ import SASS from '../images/sass.png'
 import REACT from '../images/react.png'
 import GIT from '../images/git.png'
 import JS from '../images/js.png'
+import Me from '../images/me-modified.png'
 
 
 //CSS
@@ -24,7 +25,8 @@ function About() {
 
     <Heading heading={heading}/>
 
-      <AccountCircleIcon sx={{ fontSize: "200px", color: "#1b7ced" }} />
+      {/* <AccountCircleIcon sx={{ fontSize: "200px", color: "#1b7ced" }} /> */}
+      <img src={Me} alt="" className='profile-img'/>
 
           <p className='description'>Self thought and fully committed to the philosophy of life-long learning, I’m a junior front end developer with a deep passion for JavaScript, React and all
             things web development. The unique combination of creativity, 
