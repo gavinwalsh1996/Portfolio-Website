@@ -43,12 +43,12 @@ function Projects() {
 
 
 
-  let buttonValue1= 'Live App';
-  let buttonValue2= 'Github';
-  let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
-  let FlightEntLinkWebsite = 'https://flight-entertainment-system.netlify.app';
-  let PortfolioLink = 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master'
-  let PortfolioLinkWebsite = 'https://gavinwalsh.netlify.app'
+  // let buttonValue1= 'Live App';
+  // let buttonValue2= 'Github';
+  // let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
+  // let FlightEntLinkWebsite = 'https://flight-entertainment-system.netlify.app';
+  // let PortfolioLink = 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master'
+  // let PortfolioLinkWebsite = 'https://gavinwalsh.netlify.app'
 
 
   return (
