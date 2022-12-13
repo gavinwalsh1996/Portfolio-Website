@@ -5,7 +5,7 @@ import LrgButton from '../components/LrgButton'
 
 function Home() {
 
-  let buttonValue = 'About Me'
+  let buttonValue = 'ABOUT ME'
 
 
   return (

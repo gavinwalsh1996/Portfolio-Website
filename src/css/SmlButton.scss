@@ -29,3 +29,25 @@ button {
 }
 
 }
+
+@media screen and (max-width: 700px) {
+    .smlbtn-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 6vh;
+    
+    .sml_btn {
+     width: 4rem;
+     height: 2rem;
+    }
+    
+    :hover {
+        box-shadow: inset 300px 0 0 0 rgb(144, 187, 187); 
+        cursor: pointer;
+    }
+    
+    }
+}

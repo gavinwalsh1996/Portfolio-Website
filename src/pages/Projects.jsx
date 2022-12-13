@@ -1,12 +1,45 @@
 import React from 'react'
-import Heading from '../components/Heading'
-import SmlButton from '../components/SmlButton'
+
+//Css
 import '../css/Projects.scss'
-import FES from '../images/fes-screenshot.png'
-import PortfolioImg from '../images/portfolio-website-screenshot.png'
+
+//Images
+import FesImage from '../images/fes-screenshot.png'
+import ConstructionImage from '../images/west-coast-construction-image.png'
+import PortfolioImage from '../images/portfolio-website-screenshot.png'
+
+import ImageAndText from '../components/ImageAndText'
 
 
-function Projects({heading, projects}) {
+function Projects() {
+
+  let projects = [ 
+    { 
+      heading: 'REACT & CSS',
+      subHeading: 'Flight Entertainment System',
+      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      img: FesImage,
+      gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
+      LiveAppButton: 'https://flight-entertainment-system.netlify.app'
+    }, 
+    { 
+      heading: 'REACT & CSS',
+      subHeading: 'West-Coast-Construction',
+      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      img: ConstructionImage,
+      gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
+      LiveAppButton: 'https://west-coast-construction.netlify.app'
+    }, 
+    { 
+      heading: 'REACT & CSS',
+      subHeading: 'Portfolio Website',
+      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      img: PortfolioImage,
+      gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
+      LiveAppButton: 'https://gavinwalsh.netlify.app'
+    }, 
+
+  ] 
 
 
 
@@ -19,53 +52,12 @@ function Projects({heading, projects}) {
 
 
   return (
-    <>
+    <div className='projectss'>
+      <h2 className='heading'>Projects</h2>
+    
+    <ImageAndText projects={projects} />
 
-  <div className='projects'>
-      
-  <Heading heading={heading} />
-  
-
-  <div className='projects-container'>
-    <div className="project-image">
-        <img src={FES} alt='' />
     </div>
-    <div className="project-desc">
-        <h3>Flight Entertainment System</h3>
-        <p>In flight entertainment system built with React. {<br></br>}
-          In this project, I make use of TMDB and Open Weather Map API's to gather information.
-          This App also includes many different React Hooks and features such as React Router and React Context. {<br></br>}
-        </p>
-        <div className="buttons">
-        <SmlButton value={buttonValue1} link={FlightEntLinkWebsite} />
-        <SmlButton value={buttonValue2} link={FlightEntLink} />
-        </div>
-      </div> 
-
-  </div>
-
-  {/* Duplicate for now for test. Recreate with props. */}
-
-  <div className='projects-container'>
-    <div className="project-image">
-        <img src={PortfolioImg} alt='' />
-    </div>
-    <div className="project-desc">
-        <h3>Portfolio Website</h3>
-        <p> A simple one page application designed to showcase my work.
-          This project was built with React and styled with SASS.
-        </p>
-        <div className="buttons">
-        <SmlButton value={buttonValue1} link={PortfolioLinkWebsite} />
-        <SmlButton value={buttonValue2} link={PortfolioLink} />
-        </div>
-      </div> 
-
-  </div>
-
-  </div>
-  
-  </>
   )
 }
 

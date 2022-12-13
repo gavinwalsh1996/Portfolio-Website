@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Footer.scss'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import { Link } from 'react-scroll'
 
@@ -15,6 +16,8 @@ function footer() {
         <div className="footer-icons">
             <a href='https://github.com/gavinwalsh1996'><GitHubIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/></a>
             <a href='mailto:gavinwalsh739@email.com'><EmailIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/></a>
+            <a href='https://linkedin.com/in/gavin-walsh-269b35238'><LinkedInIcon sx={{ fontSize: "2rem", color: "#ffff2c", cursor:"pointer" }}/></a>
+
         </div>
         <div className="footer-copyright">GAVIN WALSH ©2022</div>
     </div>
