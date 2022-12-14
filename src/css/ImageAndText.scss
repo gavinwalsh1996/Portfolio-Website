@@ -30,6 +30,11 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    width: 50%;
+
+    .textmain-text {
+        width: 60%;
+    }
 }
 
 .textsub-heading {
@@ -44,65 +49,6 @@
 //Mobile
 @media only screen and (max-width: 700px) {
 
-//     .imageandtext-container {
-//         width: 100vw;
-//         height: 40vh;
-//         padding: 1rem;
-//     }
-    
-//     .imagetextgrid-container {
-//         width: 100%;
-//         height: 60%;
-//         padding: 1rem;
-//     }
-    
-//     .one {
-//         height: 50%;
-//         width: 100%;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         align-items: center;
-    
-//         .main-text {
-//             width: 50%;
-//             height: 100%;
-//             font-size: .5rem;
-//         }
-    
-//         .grid-img {
-//             width: 40%;
-//             height: 100%;
-//             object-fit: cover;
-//         }
-    
-//         .textcontainer {
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             align-items: center;
-//             width: 50%;
-//             text-align: center;
-//             gap: .3rem;
-//         }
-//     } 
-
-//     .textheading {
-//         font-size: .3rem;
-//         display: none;
-//     }
-
-//     h3.textsub-heading {
-//         font-size: .6rem;
-//         display: none;
-//     }
-
-//     p.textmain-text {
-//         font-size: .4rem;
-//         font-size: 0.6rem;
-//     }
-// }
-
 .imageandtext-container {
     width: 100%;
     height: 10vh;
@@ -115,7 +61,7 @@
 
 .imageandtext-container {
 width: 100%;
-height: 30vh;
+height: 40vh;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -126,7 +72,7 @@ background-color: rgba(12, 12, 12, 0.95);
 }
 
 .image_container {
-    width: 50%;
+    width: 80%;
 }
 
 .image-background-cont {
@@ -141,10 +87,15 @@ background-color: rgba(12, 12, 12, 0.95);
     gap: 1rem;
     width: 50%;
     height: 100%;
+
+    .textmain-text {
+        width: 100%;
+    }
 }
 
 .textsub-heading {
     color: white;
+    font-size: .8rem;
 }
 
 .textheading {

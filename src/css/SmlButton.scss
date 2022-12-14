@@ -38,6 +38,10 @@ button {
         align-items: center;
         text-align: center;
         min-height: 6vh;
+
+        button {
+            font-size: smaller;
+        }
     
     .sml_btn {
      width: 4rem;

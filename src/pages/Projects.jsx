@@ -15,41 +15,31 @@ function Projects() {
 
   let projects = [ 
     { 
-      heading: 'REACT & CSS',
+      heading: "REACT & CSS",
       subHeading: 'Flight Entertainment System',
-      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      mainText: "Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app. This design uses data from multiple API'S.",
       img: FesImage,
       gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
       LiveAppButton: 'https://flight-entertainment-system.netlify.app'
     }, 
     { 
-      heading: 'REACT & CSS',
+      heading: 'REACT & SASS',
       subHeading: 'West-Coast-Construction',
-      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      mainText: 'A construction website concept built to showcase my layout skills and to show that I can build a generic website. This project was built using React and styled with SASS.',
       img: ConstructionImage,
-      gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
+      gitHubButton: 'https://github.com/gavinwalsh1996/test-construction-app',
       LiveAppButton: 'https://west-coast-construction.netlify.app'
     }, 
     { 
-      heading: 'REACT & CSS',
+      heading: 'REACT & SASS',
       subHeading: 'Portfolio Website',
-      mainText: 'Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app',
+      mainText: 'Simple one page website designed to showcase my work.',
       img: PortfolioImage,
-      gitHubButton: 'https://github.com/gavinwalsh1996/flight-entertainment-system',
+      gitHubButton: 'https://github.com/gavinwalsh1996/Portfolio-Website',
       LiveAppButton: 'https://gavinwalsh.netlify.app'
     }, 
 
   ] 
-
-
-
-  // let buttonValue1= 'Live App';
-  // let buttonValue2= 'Github';
-  // let FlightEntLink = 'https://github.com/gavinwalsh1996/flight-entertainment-system';
-  // let FlightEntLinkWebsite = 'https://flight-entertainment-system.netlify.app';
-  // let PortfolioLink = 'https://github.com/gavinwalsh1996/Portfolio-Website/tree/master'
-  // let PortfolioLinkWebsite = 'https://gavinwalsh.netlify.app'
-
 
   return (
     <div className='projectss'>

@@ -20,14 +20,10 @@ function ContactForm() {
 
   return (
 
-    <form ref={form} onSubmit={sendEmail}>
-    {/* <label>Name</label> */}
+  <form ref={form} onSubmit={sendEmail}>
     <input type="text" name="user_name" placeholder='Name' />
-    {/* <label>Email</label> */}
     <input type="email" name="user_email" placeholder='Email'/>
-    {/* <label>Message</label> */}
     <textarea name="message" placeholder='Message'/>
-    {/* <input type="submit" value="Send" /> */}
     <SmlButton type="submit" value="Submit" />
   </form>
 

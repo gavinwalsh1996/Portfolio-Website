@@ -24,8 +24,7 @@ function About() {
   <div className='about'>
 
     <Heading heading={heading}/>
-
-      {/* <AccountCircleIcon sx={{ fontSize: "200px", color: "#1b7ced" }} /> */}
+    
       <img src={Me} alt="" className='profile-img'/>
 
           <p className='description'>Self-taught and fully committed to the philosophy of life-long learning, I’m a junior front end developer with a deep passion for JavaScript, React and all
