@@ -27,7 +27,7 @@ function Projects() {
       subHeading: 'West-Coast-Construction',
       mainText: 'A construction website concept built to showcase my layout skills and to show that I can build a generic website. This project was built using React and styled with SASS.',
       img: ConstructionImage,
-      gitHubButton: 'https://github.com/gavinwalsh1996/test-construction-app',
+      gitHubButton: 'https://github.com/gavinwalsh1996/west-coast-construction',
       LiveAppButton: 'https://west-coast-construction.netlify.app'
     }, 
     { 
