@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import ReactSwitch from 'react-switch';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import Resume from '../assets/GavinWalshDeveloperResume.pdf';
+import Resume from '../assets/Gavin-Walsh-Resume.pdf';
 
 //CSS
 import '../css/Header.scss'
