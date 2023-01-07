@@ -7,6 +7,8 @@ import '../css/Projects.scss'
 import FesImage from '../images/fes-screenshot.png'
 import ConstructionImage from '../images/west-coast-construction-image.png'
 import PortfolioImage from '../images/portfolio-website-screenshot.png'
+import SnowboardCrudImage from '../images/Snowboard-store-screenshot-2.png'
+import SnowboardCrudImageMobile from '../images/Snowboard-store-mobile.png'
 
 import ImageAndText from '../components/ImageAndText'
 
@@ -24,9 +26,19 @@ function Projects() {
     }, 
     { 
       heading: 'REACT & SASS',
+      subHeading: 'Snowboard E-Commerce CRUD Application',
+      mainText: 'A small CRUD application designed using my favourite snowboard brand.',
+      img: SnowboardCrudImage,
+      img2: SnowboardCrudImageMobile,
+      gitHubButton: 'https://github.com/gavinwalsh1996/snowboard-e-commerce-store',
+      LiveAppButton: 'https://snowboard-ecommerce.netlify.app/'
+    }, 
+    { 
+      heading: 'REACT & SASS',
       subHeading: 'West-Coast-Construction',
       mainText: 'A construction website concept built to showcase my layout skills and to show that I can build a generic website. This project was built using React and styled with SASS.',
       img: ConstructionImage,
+      img2: SnowboardCrudImageMobile,
       gitHubButton: 'https://github.com/gavinwalsh1996/west-coast-construction',
       LiveAppButton: 'https://west-coast-construction.netlify.app'
     }, 
@@ -35,6 +47,7 @@ function Projects() {
       subHeading: 'Portfolio Website',
       mainText: 'Simple one page website designed to showcase my work.',
       img: PortfolioImage,
+      img2: SnowboardCrudImageMobile,
       gitHubButton: 'https://github.com/gavinwalsh1996/Portfolio-Website',
       LiveAppButton: 'https://gavinwalsh.netlify.app'
     }, 

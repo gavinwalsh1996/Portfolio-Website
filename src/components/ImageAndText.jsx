@@ -18,6 +18,7 @@ function ImageAndText({projects}) {
       <div className="image_container">
         <div className="image-background-cont">
         <img src={project.img} className='grid-img' alt='' loading=" lazy" ></img>
+        {/* <img src={project.img2} className='grid-img' alt='' loading=" lazy" ></img> */}
         </div>
       </div>
       <div className="textcontainer">
