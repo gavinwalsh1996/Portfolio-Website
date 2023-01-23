@@ -10,6 +10,7 @@ import REACT from '../images/react.png'
 import GIT from '../images/git.png'
 import JS from '../images/js.png'
 import Me from '../images/me-modified.png'
+import Tailwind from '../images/tailwind.png'
 
 
 //CSS
@@ -46,6 +47,11 @@ function About() {
                 <div className="skills-name">
                 <img src={CSS} alt='' />
                   <div className='lang-name'>CSS</div>
+                </div>
+
+                <div className="skills-name">
+                <img src={Tailwind} alt=''/>
+                  <div className='lang-name'>TAILWIND</div>
                 </div>
 
                 <div className="skills-name">

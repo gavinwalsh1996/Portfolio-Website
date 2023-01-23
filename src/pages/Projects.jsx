@@ -16,7 +16,7 @@ import ImageAndText from '../components/ImageAndText'
 function Projects() {
 
   let projects = [ 
-    { 
+    {  
       heading: "REACT & CSS",
       subHeading: 'Flight Entertainment System',
       mainText: "Experience a flight from Dublin to Barcelona with this React Front end flight entertainment system app. This design uses data from multiple API'S.",
