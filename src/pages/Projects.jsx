@@ -9,6 +9,7 @@ import ConstructionImage from '../images/west-coast-construction-image.png'
 import PortfolioImage from '../images/portfolio-website-screenshot.png'
 import SnowboardCrudImage from '../images/Snowboard-store-screenshot-2.png'
 import SnowboardCrudImageMobile from '../images/Snowboard-store-mobile.png'
+import SPWImage from '../images/website-screenshot.png'
 
 import ImageAndText from '../components/ImageAndText'
 
@@ -16,6 +17,15 @@ import ImageAndText from '../components/ImageAndText'
 function Projects() {
 
   let projects = [ 
+    { 
+      heading: 'REACT & TAILWIND',
+      subHeading: 'Single Page Website',
+      mainText: 'Simple one page website built using React and Tailwind CSS.',
+      img: SPWImage,
+      img2: SPWImage,
+      gitHubButton: 'https://github.com/gavinwalsh1996/Single-Page-Website',
+      LiveAppButton: 'https://singlewebpage.netlify.app/'
+    },
     {  
       heading: "REACT & CSS",
       subHeading: 'Flight Entertainment System',
@@ -50,7 +60,7 @@ function Projects() {
       img2: SnowboardCrudImageMobile,
       gitHubButton: 'https://github.com/gavinwalsh1996/Portfolio-Website',
       LiveAppButton: 'https://gavinwalsh.netlify.app'
-    }, 
+    } 
 
   ] 
 

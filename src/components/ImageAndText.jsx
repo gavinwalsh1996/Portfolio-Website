@@ -28,7 +28,7 @@ function ImageAndText({projects}) {
 
           <div className="btnss">
           <SmlButton link={project.gitHubButton} value='GITHUB' />
-          <SmlButton link={project.LiveAppButton} value='LIVE APP'/>
+          <SmlButton link={project.LiveAppButton} value='LIVE SITE'/>
           
           </div>
       </div>
