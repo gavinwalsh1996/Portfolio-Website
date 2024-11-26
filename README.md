@@ -1,8 +1,7 @@
-<h1>My Portfolio Website</h1>
+<h1>My First Portfolio Website</h1>
 
 A simple one page application designed to showcase my work. This project was built with React and styled with SASS.
 
-https://gavinwalsh.netlify.app/
 
 Desktop View : 
 
